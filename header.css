@@ -48,3 +48,7 @@
     padding: .5em;
     border-radius: 10px;
 }
+
+.menu__social-image {
+    width: 2em;
+}

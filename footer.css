@@ -52,3 +52,7 @@
     color: var(--cinza);
     cursor: pointer;
 }
+
+.footer__social-image {
+    width: 2em;
+}
