@@ -23,6 +23,7 @@
 
 .menu__list {
     display: flex;
+    transition: ease-in-out 300ms;
 }
 
 .menu__social {

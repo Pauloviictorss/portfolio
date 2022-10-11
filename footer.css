@@ -12,6 +12,8 @@
     border: 1px solid var(--branco);
     padding: .5em;
     border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
     transition: ease-in-out 300ms;
 }
 
