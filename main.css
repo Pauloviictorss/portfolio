@@ -1,0 +1,69 @@
+.main {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.main__flex {
+    margin-right: 3em;
+}
+
+.img__teste {
+    height: 175px;
+    width: 600px;
+    background-color: var(--cinza);
+    border-radius: 10px;
+}
+
+.main__name {
+    font-size: 36px;
+    color: var(--roxo);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.virgula {
+    color: var(--cinza);
+}
+
+.main_front {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    margin: .3em 0 1em 0;
+}
+
+.main__text {
+    font-weight: 400;
+    line-height: 1.5em;
+    max-width: 450px;
+}
+
+.main__text strong {
+    font-weight: 600;
+}
+
+.main__contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#mail_input {
+    border: 1px solid var(--cinza);
+    background: transparent;
+    width: 100%;
+    padding: .5em 0;
+    text-align: center;
+    font-weight: 200;
+}
+
+.button__mail {
+    background-color: var(--roxo);
+    padding: .5em 0;
+    border-radius: 0 10px 10px 0;
+    font-size: 12px;
+    color: var(--branco);
+}
