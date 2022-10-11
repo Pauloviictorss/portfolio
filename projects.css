@@ -9,11 +9,21 @@
 .projetos__title {
     text-transform: uppercase;
     font-size: 32px;
+    cursor: pointer;
+}
+
+.projetos__title:hover {
+    color: var(--roxo);
 }
 
 .projetos__title strong {
     font-weight: 900;
     color: var(--roxo);
+}
+
+.projetos__title strong:hover {
+    font-weight: 900;
+    color: var(--branco);
 }
 
 .projetos__box {
@@ -30,4 +40,5 @@
     width: 45%;
     border: 1px dotted var(--branco);
     border-radius: 10px;
+    max-width: 800px;
 }

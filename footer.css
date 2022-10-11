@@ -12,6 +12,7 @@
     border: 1px solid var(--branco);
     padding: .5em;
     border-radius: 10px;
+    transition: ease-in-out 300ms;
 }
 
 .footer__contato {
@@ -20,6 +21,12 @@
 
 .contato__title {
     font-weight: 900;
+    transition: ease-in-out 300ms;
+}
+
+.contato__title:hover {
+    color: var(--cinza);
+    cursor: pointer;
 }
 
 .contato__tel {
@@ -36,4 +43,10 @@
     border: 1px solid var(--branco);
     padding: .5em;
     border-radius: 10px;
+}
+
+.footer_logo:hover {
+    border: 1px solid var(--cinza);
+    color: var(--cinza);
+    cursor: pointer;
 }

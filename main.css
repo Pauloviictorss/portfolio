@@ -20,6 +20,11 @@
     color: var(--roxo);
     font-weight: 900;
     text-transform: uppercase;
+    transition: ease-in-out 400ms;
+}
+
+.main__name:hover {
+    color: var(--cinza);
 }
 
 .virgula {
@@ -31,12 +36,22 @@
     font-size: 24px;
     font-weight: 200;
     margin: .3em 0 1em 0;
+    transition: ease-in-out 400ms;
+}
+
+.main_front:hover {
+    color: var(--roxo);
 }
 
 .main__text {
     font-weight: 400;
     line-height: 1.5em;
     max-width: 450px;
+    transition: ease-in-out 400ms;
+}
+
+.main__text:hover {
+    font-size: 18px;
 }
 
 .main__text strong {

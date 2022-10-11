@@ -11,6 +11,14 @@
     padding: .5em;
     border-radius: 10px;
     color: var(--cinza);
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+
+.logo:hover {
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    cursor: pointer;
 }
 
 .menu__list {
@@ -24,6 +32,7 @@
 .menu__items {
     margin: 0 .5em; 
     text-transform: uppercase; 
+    transition: ease-in-out 300ms;
 }
 
 .menu__items:hover {
