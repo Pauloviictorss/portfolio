@@ -1,0 +1,39 @@
+.footer {
+    padding: 6em 1.5em;
+    display: flex;
+    flex-direction: row;
+    background: var(--roxo);
+    justify-content: space-between;
+    color: var(--branco);
+}
+
+.footer_logo {
+    font-weight: 900;
+    border: 1px solid var(--branco);
+    padding: .5em;
+    border-radius: 10px;
+}
+
+.footer__contato {
+    text-align: center;
+}
+
+.contato__title {
+    font-weight: 900;
+}
+
+.contato__tel {
+    margin: 1em 0 .5em 0;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__social-item {
+    margin: 0 .5em;
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    padding: .5em;
+    border-radius: 10px;
+}
