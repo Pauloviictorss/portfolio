@@ -1,0 +1,43 @@
+.certificados {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+
+.certificado__title {
+    text-align: center;
+    padding: 2em 0 1em 0;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--cinza);
+    transition: ease-in-out 300ms;
+}
+
+.certificado__title:hover {
+    color: var(--roxo);
+    cursor: pointer;
+}
+
+.formacao__box {
+    width: 100%;
+    height: 100%;
+    border: 1px dotted var(--roxo);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img__formacao {
+    width: 15em;
+    margin: 1em;
+    border-radius: 10px;
+    transition: ease-in-out 300ms;
+}
+
+.img__formacao:hover {
+    width: 15.5em;
+}
