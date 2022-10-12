@@ -47,6 +47,11 @@
     border: 1px solid var(--branco);
     padding: .5em;
     border-radius: 10px;
+    transition: ease-in-out 300ms;
+}
+
+.menu__social-item:hover {
+    border: 1px solid var(--cinza);
 }
 
 .menu__social-image {
