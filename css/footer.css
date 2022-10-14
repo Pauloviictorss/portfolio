@@ -61,3 +61,19 @@
 .footer__social-image {
     width: 30px;
 }
+
+@media screen and (max-width: 1024px){
+    .footer {
+        display: block;
+        padding: 2em;
+    }
+
+    .footer_logo {
+        display: none;
+    }
+
+    .footer__social {
+        margin-top: 2em;
+        justify-content: center;
+    }
+}
